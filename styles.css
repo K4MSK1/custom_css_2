@@ -1,0 +1,172 @@
+/* 
+by Jin Kamski Sei, April 2022 
+*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+/*BODY */
+/*
+body {
+    background: url(https://i.ibb.co/gwgJGN2/FQIA0-ZIXMAMQaym.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*/
+
+.banner[data-v-1cc2919e]{
+    background-position-y: bottom -150px;
+}
+
+/*
+#nav {
+    display:none;
+}*/
+
+.name[data-v-1cc2919e] { 
+    /* page owner name tag */
+    font-size: 4em; 
+    font-family: 'Nothing You Could Do', cursive;
+
+     background: -webkit-linear-gradient(0deg,#b2db1a,#e84e1b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cover[data-v-b584a8de]{ 
+    /* cover of activities */
+    width:100px;
+    height: 140px;
+}
+
+.details[data-v-b584a8de]{ 
+    /* details on activities */
+    margin-left: 50px;
+}
+
+.avatar[data-v-1cc2919e]{ 
+    /* page owner main avatar*/
+    max-width: 255px;
+}
+
+.avatar[data-v-732ef224], .text .avatar[data-v-b584a8de]{ 
+    /* page visiter avatar in replies */
+    width: 80px;
+    height:80px;
+    background-position-x: center; 
+    background-position-y: center;
+    background-size: contain ;
+    background-repeat: no-repeat;
+}
+
+.name[data-v-732ef224]{ 
+    /* page visiter name in activity replies */
+    margin-top: 20px;
+    font-size:20px;
+}
+
+.wrap[data-v-b584a8de]{
+    font-size: 1.4rem;
+}
+
+.name[data-v-b584a8de] {
+    font-size:20px;
+}
+
+/* SECTIONS */ 
+
+.about .content-wrap { /* BIO */
+  overflow-y: hidden !important;
+}
+
+.about .content-wrap:hover { /* BIO */
+  overflow-y: hidden !important;
+}
+
+.markdown[data-v-5c30286e] br:nth-child(3), br:nth-child(4) { /* gros galérien */
+    display:none;
+}
+
+img[width="300"]{ /* gros galérien */
+    width: 200px;
+}
+
+.history-day[data-v-b79eb0f0] { /* history tracks */
+    background : none ;   
+    border-radius: 0px;
+    height: 8px;
+    transition: all 300ms;
+}
+
+.history-day[data-v-b79eb0f0]:hover { 
+    background: #CDEB5C;
+}
+
+.stat .value[data-v-815ccddc] { /* stats */
+  font-size: 3.4rem;
+}
+
+.desktop[data-v-63cd3b41]{ /* genre overview*/
+    display : none;
+}
+
+/* FAVORITES */
+
+.favourites-wrap[data-v-ddf96a3c] { /*container of favorites*/
+    background: none;
+}
+
+
+.favourites.desktop.preview[data-v-ddf96a3c]{
+    margin: 0px;
+}
+
+.favourites.preview .favourites-wrap[data-v-ddf96a3c]{
+    margin-bottom: 5px;
+}
+
+
+.favourites.preview .favourites-wrap .favourite[data-v-ddf96a3c], .favourites.preview .favourites-wrap > div[data-v-ddf96a3c] { /* favorites covers*/
+  margin-bottom: 1px;
+  margin-right: 4px;
+    border-radius: 0px;
+}
+
+.favourite[data-v-0317d914]{
+    transform:scale(1.03);
+}
+
+.section-header[data-v-ddf96a3c]{
+    display : none;
+}
+
+.favourites-wrap .studios[data-v-ddf96a3c]{
+    display : none;
+}
+
+/* COLORS */
+
+
+div.user-page-unscoped.green {
+  --color-blue: 181, 206, 80;
+}
+
+.site-theme-dark .user-page-unscoped.green {
+  --color-blue: 181, 206, 80
+}
+
+div.user-page-unscoped.green {
+  --color-blue-dim: 205, 100, 65;
+}
+
+/*
+.nav .link[data-v-1cc2919e] {
+  color: rgb(255, 255, 255);
+}
+*/
+
+.user-page-unscoped.green .progress .bar {
+  background: linear-gradient(270deg,#CDEB5C,#CD6441);
+}
