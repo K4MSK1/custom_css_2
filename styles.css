@@ -3,7 +3,8 @@ by Jin Kamski Sei, April 2022
 */
 
 /*@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap');
 
 /*BODY */
 /*
@@ -15,11 +16,11 @@ body {
     background-attachment: fixed;
 }
 */
-
+/*
 .banner[data-v-1cc2919e]{
     background-position-y: bottom -150px;
 }
-
+*/
 /*
 #nav {
     display:none;
@@ -28,9 +29,9 @@ body {
 .name[data-v-1cc2919e] { 
     /* page owner name tag */
     font-size: 4em; 
-    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Bayshore', 'Cinzel', cursive;
 
-     background: -webkit-linear-gradient(0deg,#b2db1a,#e84e1b);
+     background: -webkit-linear-gradient(0deg,#E60100,#551D2A);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -148,7 +149,7 @@ img[width="300"]{ /* gros galérien */
 
 /* COLORS */
 
-
+/*
 div.user-page-unscoped.green {
   --color-blue: 181, 206, 80;
 }
@@ -160,7 +161,7 @@ div.user-page-unscoped.green {
 div.user-page-unscoped.green {
   --color-blue-dim: 205, 100, 65;
 }
-
+*/
 /*
 .nav .link[data-v-1cc2919e] {
   color: rgb(255, 255, 255);
